@@ -18,13 +18,13 @@ The system works in 3 stages:
 
 FaceRecognitionAttendance/
 │
-├── capture.py # Face image collection script
-├── train_model.py # CNN training script
-├── interface.py # Face recognition + attendance logging
-├── face_recognition_model.h5 # Trained CNN model (auto-generated)
-├── attendance.csv # CSV file logging attendance (auto-generated)
-├── requirements.txt # List of required Python libraries
-├── README.md # Project documentation
-└── data/ # Dataset directory
-├── 123/ # Folder for user with roll number 123
+├── capture.py # Face image collection script<br>
+├── train_model.py # CNN training script<br>
+├── interface.py # Face recognition + attendance logging<br>
+├── face_recognition_model.h5 # Trained CNN model (auto-generated)<br>
+├── attendance.csv # CSV file logging attendance (auto-generated)<br>
+├── requirements.txt # List of required Python libraries<br>
+├── README.md # Project documentation<br>
+└── data/ # Dataset directory<br>
+├── 123/ # Folder for user with roll number 123<br>
 ......
