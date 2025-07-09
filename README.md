@@ -1,0 +1,30 @@
+# 🎯 Face Recognition Attendance System
+
+This project is a **Face Recognition-based Attendance System** that uses a webcam to capture real-time photos, detects faces using OpenCV, and identifies individuals using a CNN model built with TensorFlow. It logs attendance automatically by writing recognized names and timestamps to a CSV file.
+
+---
+
+## 🧠 Project Overview
+
+The system works in 3 stages:
+
+1. **Data Collection** (`capture.py`) – Collects face images from the webcam and saves them in a structured folder based on the user's roll number.
+2. **Model Training** (`train_model.py`) – Preprocesses the collected images and trains a Convolutional Neural Network (CNN) to classify faces.
+3. **Real-time Attendance** (`interface.py`) – Uses the trained model to recognize faces from the webcam feed and logs attendance into a CSV file.
+
+---
+
+## 📁 Directory Structure
+
+FaceRecognitionAttendance/
+│
+├── capture.py # Face image collection script
+├── train_model.py # CNN training script
+├── interface.py # Face recognition + attendance logging
+├── face_recognition_model.h5 # Trained CNN model (auto-generated)
+├── attendance.csv # CSV file logging attendance (auto-generated)
+├── requirements.txt # List of required Python libraries
+├── README.md # Project documentation
+└── data/ # Dataset directory
+├── 123/ # Folder for user with roll number 123
+......
