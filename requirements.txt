@@ -1,9 +1,4 @@
-cv2
-os
-time
-uuid
-csv
-datetime
+opencv-python
 numpy
 tensorflow
-sklearn
+scikit-learn
