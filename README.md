@@ -1,10 +1,10 @@
-# 🎯 Face Recognition Attendance System
+#  Face Recognition Attendance System
 
 This project is a **Face Recognition-based Attendance System** that uses a webcam to capture real-time photos, detects faces using OpenCV, and identifies individuals using a CNN model built with TensorFlow. It logs attendance automatically by writing recognized names and timestamps to a CSV file.
 
 ---
 
-## 🧠 Project Overview
+##  Project Overview
 
 The system works in 3 stages:
 
@@ -14,7 +14,7 @@ The system works in 3 stages:
 
 ---
 
-## 📁 Directory Structure
+##  Directory Structure
 
 FaceRecognitionAttendance/
 │
